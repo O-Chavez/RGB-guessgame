@@ -1,3 +1,9 @@
+var express = require('express'),
+
+app = express();
+app.set("view engine", "ejs");
+
+
 var numSquares = 6;
 var colors = [];
 var pickedColor;
@@ -100,3 +106,9 @@ function changeColors(color){
   var b = Math.floor(Math.random() * 256);
   return "rgb(" + r +", " + g + ", " + b + ")";
  }
+
+
+
+ app.listen(3000, function(){
+   console.log("Connected on port 3000!")
+ });

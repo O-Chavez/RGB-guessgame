@@ -1,0 +1,24 @@
+{
+  "name": "guessingame",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oscar-aChavez/RGB-guessgame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oscar-aChavez/RGB-guessgame/issues"
+  },
+  "homepage": "https://github.com/Oscar-aChavez/RGB-guessgame#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
